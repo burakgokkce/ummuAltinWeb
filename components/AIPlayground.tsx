@@ -104,7 +104,7 @@ export default function AIPlayground() {
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full mb-4" />
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Son zamanlarda denediğim AI araçları, prompt denemeleri ve
-            otomasyon fikirleri. AI'ı öğreniyorum ve kullanıyorum.
+            otomasyon fikirleri. AI&apos;ı öğreniyorum ve kullanıyorum.
           </p>
         </motion.div>
 

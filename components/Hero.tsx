@@ -149,8 +149,8 @@ export default function Hero() {
               whileHover={{ rotate: 5, scale: 1.05 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full blur-2xl opacity-50 animate-pulse" />
-              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-purple-500/30 bg-gradient-to-br from-purple-600/20 to-blue-600/20 flex items-center justify-center">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full blur-3xl opacity-60 animate-pulse" />
+              <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden border-4 border-purple-500/40 shadow-2xl shadow-purple-500/30 bg-gradient-to-br from-purple-600/20 to-blue-600/20 flex items-center justify-center">
                 {!imageError ? (
                   <Image
                     src="/me.jpg"
@@ -161,8 +161,10 @@ export default function Hero() {
                     onError={() => setImageError(true)}
                   />
                 ) : (
-                  <div className="absolute inset-0 flex items-center justify-center text-6xl font-bold text-white/20">
-                    Ü
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="text-8xl font-bold gradient-text opacity-30">
+                      ÜA
+                    </div>
                   </div>
                 )}
               </div>
